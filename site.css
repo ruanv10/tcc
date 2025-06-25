@@ -1,0 +1,67 @@
+@font-face {
+    font-family: vintage;
+    src: url("Fonts css/LuxuriousScript-Regular.ttf");
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url("Fonts\ css/Montserrat-Bold.ttf");
+}
+
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(pagina\ inicial.png);
+    background-position: 90% 25%;
+}
+
+header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-family: Montserrat;
+    color: #fff;
+    overflow: auto;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 5px 5px black;
+}
+
+header input {
+    border-radius: 10px;
+    opacity: 50%;
+    padding-left: 10px;
+}
+
+header img {
+    padding: 16px;
+    width: 10px;
+    height: 10px;
+}
+
+.gp {
+    display: flex;
+    justify-content: center;
+}
+
+.texto1 {
+    font-size: 300px;
+    display: flex;
+    justify-content: center;
+    font-family: Vintage;
+    font-weight: 100;
+    font-family: vintage;
+    color: #fff;
+}
+
+.ep {
+    font-size: 11px;
+    text-align: center;
+    color: #fff;
+}
