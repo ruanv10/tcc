@@ -15,22 +15,24 @@
 }
 
 body {
-    background-image: url(pagina\ inicial.png);
-    background-position: 90% 25%;
+    background-color: beige;
 }
 
 header {
-    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
     display: flex;
     justify-content: space-between;
     font-size: 12px;
     font-family: Montserrat;
-    color: #fff;
+    color: beige;
     overflow: auto;
     position: fixed;
     width: 100%;
     z-index: 1000;
-    box-shadow: 0 5px 5px black;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
 }
 
 header input {
@@ -57,11 +59,24 @@ header img {
     font-family: Vintage;
     font-weight: 100;
     font-family: vintage;
-    color: #fff;
+    color: beige;
+    background-image: url(david-clode-xNSCi_K179c-unsplash.jpg);
+    background-position: center;
+    background-size: 2000px;
+    height: 500px;
 }
 
 .ep {
     font-size: 11px;
     text-align: center;
     color: #fff;
+}
+
+div {
+    font-size: small;
+    padding: 10px;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    max-width: 100%;
 }
